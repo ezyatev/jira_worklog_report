@@ -4,9 +4,14 @@ A Python script that creates a consolidated report by JIRA issues worklogs with 
 
 ## Installation
 
-1. Copy the `settings-example.py` file and save the new file as `settings.py`.
-2. Change module level variables. For details, see the comments.
-3. Make the script executable:
+1. Create & activate Python 3 virtual environment.
+2. Run in your shell:
+
+        pip install -r requirements.txt 
+
+3. Copy the `settings-example.py` file and save the new file as `settings.py`.
+4. Change module level variables. For details, see the comments.
+5. Make the script executable:
 
         chmod a+x report.py
 
